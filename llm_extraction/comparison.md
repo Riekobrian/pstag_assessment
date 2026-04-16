@@ -43,23 +43,29 @@ Entry text: "GAO Qiang. Nationality: Chinese. Involved in cyber-attacks..."
 }
 ```
 
-The field descriptions in `SOURCE_A_FIELD_SPECS` drive the extraction — no regex needed:
+The Pydantic model is the single source of truth driving the extraction:
 ```python
-SOURCE_A_FIELD_SPECS = {
-    "entity_type": "Either 'person' or 'organisation'. Classify by context...",
-    "name": "The official name exactly as written in the source...",
-    "listing_reason": "The substantive grounds for listing...",
-}
+# models.py — single source of truth
+class SanctionEntity(BaseModel):
+    entity_type: str = Field(description="Either 'person' or 'organisation'. Classify by context, not just name suffix.")
+    listing_reason: Optional[str] = Field(None, description="Substantive grounds for listing. Limit to 600 chars.")
+
+# llm_extractor.py — reads from model automatically
+field_lines = "\n".join(
+    f"  - {name}: {info.description}"
+    for name, info in SanctionEntity.model_fields.items()
+    if info.description
+)
 ```
 
 ### Specific Cases Where Regex Would Fail
 
-| Entry | Regex Problem | LLM Solution |
-|-------|--------------|--------------|
-| `Tianjin Huaying Haitai Science and Technology Development Co. Ltd` | No "organisation" label — regex classifier misidentifies as person | LLM reads the full context ("company", "Ltd") and correctly classifies |
-| `85th Main Special Service Centre of the Main Directorate...` | Entry starts with a number, breaks numeric entry splitting | LLM handles it as prose |
-| Entries with Cyrillic transliterations in brackets | Regex can't reliably separate transliterations from aliases | LLM understands the semantic distinction |
-| Multi-paragraph listing reasons | Regex over-captures or under-captures | LLM extracts the semantically relevant grounds |
+| Entry | Regex Problem | LLM Solution | Actual LLM Output |
+|-------|--------------|--------------|-------------------|
+| `Tianjin Huaying Haitai Science and Technology Development Co. Ltd` | No "organisation" label — regex classifier misidentifies as person | LLM reads the full context ("company", "Ltd") and correctly classifies | `{"entity_type": "organisation", "name": "Tianjin Huaying Haitai Science and Technology Development Co. Ltd", "aliases": ["Huaying Haitai"], "identifiers": {"date_of_birth": null, "place_of_birth": null, "nationality": null, "passport_number": null, "national_id": null, "address": "Tianjin, China", "gender": null}, "listing_reason": "Chinese company that provided support to APT10...", "date_listed": "2020-07-30", "source_reference": "Annex I, Section B (Organisations), entry 6"}` |
+| `GAO Qiang` | Missing fields like date of birth, leading to regex misalignment | LLM maps properties accurately regardless of missing keys | `{"entity_type": "person", "name": "GAO Qiang", "aliases": ["Gao Qiang"], "identifiers": {"date_of_birth": null, "place_of_birth": "China", "nationality": "Chinese", "passport_number": null, "national_id": null, "address": "Tianjin, China", "gender": "male"}, "listing_reason": "Member of APT10...", "date_listed": "2020-07-30", "source_reference": "Annex I, Section A (Persons), entry 8"}` |
+| `85th Main Special Service Centre...` | Entry starts with a number, breaks numeric entry splitting | LLM handles it as prose | *(extracted accurately)* |
+| Entries with Cyrillic transliterations | Regex can't reliably separate transliterations from aliases | LLM understands the semantic distinction | *(extracted accurately)* |
 
 **Result**: 24/24 entities correctly extracted and validated via Pydantic (15 persons, 9 organisations).
 
@@ -119,7 +125,7 @@ Source A:  Raw HTML → Entry Splitting → LLM Semantic Extraction → Pydantic
 Source B:  Raw HTML → [Regex Backend → Pydantic] + [LLM Backend → Pydantic] → Merge → JSON
 ```
 
-Both paths are **declarative**: the Pydantic models + FIELD_SPECS dictionaries define *what* to extract. The backends (regex or LLM) are interchangeable strategies for *how* to extract it. Adding a new field means updating the spec, not writing new code.
+Both paths are **declarative**: the Pydantic models define *what* to extract. The backends (regex or LLM) are interchangeable strategies for *how* to extract it. Adding a new field means updating the spec, not writing new code.
 
 ---
 
