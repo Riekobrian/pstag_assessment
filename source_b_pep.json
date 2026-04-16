@@ -1,0 +1,359 @@
+{
+  "source": "rulers.org",
+  "country": "Poland",
+  "extraction_date": "2026-04-16",
+  "persons": [
+    {
+      "name": "Andrzej Duda",
+      "role": "Head of State",
+      "role_detail": "President",
+      "start_date": "2015-08-06",
+      "end_date": "2025-08-06",
+      "currently_serving": false,
+      "birth_year": "1972",
+      "notes": null,
+      "source_reference": null
+    },
+    {
+      "name": "Karol Nawrocki",
+      "role": "Head of State",
+      "role_detail": "President",
+      "start_date": "2025-08-06",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1983",
+      "notes": null,
+      "source_reference": null
+    },
+    {
+      "name": "Donald Tusk (2nd time)",
+      "role": "Prime Minister",
+      "role_detail": "Prime Minister",
+      "start_date": "2023-12-13",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": null,
+      "notes": null,
+      "source_reference": null
+    },
+    {
+      "name": "Anna Zabska",
+      "role": "Governor",
+      "role_detail": "Dolnoslaskie",
+      "start_date": "2024-11-25",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1980",
+      "notes": "f; PO",
+      "source_reference": null
+    },
+    {
+      "name": "Michal Sztybel",
+      "role": "Governor",
+      "role_detail": "Kujawsko-Pomorskie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1985",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Dorota Ryl",
+      "role": "Governor",
+      "role_detail": "Lódzkie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1961",
+      "notes": "f; PO",
+      "source_reference": null
+    },
+    {
+      "name": "Krzysztof Komorski",
+      "role": "Governor",
+      "role_detail": "Lubelskie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1983",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Marek Cebula",
+      "role": "Governor",
+      "role_detail": "Lubuskie",
+      "start_date": "2023-12-22",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1965",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Krzysztof Kleczar",
+      "role": "Governor",
+      "role_detail": "Malopolskie",
+      "start_date": "2023-12-14",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1982",
+      "notes": "PSL",
+      "source_reference": null
+    },
+    {
+      "name": "Mariusz Frankowski",
+      "role": "Governor",
+      "role_detail": "Mazowieckie",
+      "start_date": "2023-12-13",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1978",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Monika Jurek",
+      "role": "Governor",
+      "role_detail": "Opolskie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1967",
+      "notes": "f; PO",
+      "source_reference": null
+    },
+    {
+      "name": "Teresa Kubas-Hul",
+      "role": "Governor",
+      "role_detail": "Podkarpackie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1963",
+      "notes": "f; PO",
+      "source_reference": null
+    },
+    {
+      "name": "Jacek Brzozowski",
+      "role": "Governor",
+      "role_detail": "Podlaskie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1977",
+      "notes": null,
+      "source_reference": null
+    },
+    {
+      "name": "Beata Rutkiewicz",
+      "role": "Governor",
+      "role_detail": "Pomorskie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1977",
+      "notes": "f",
+      "source_reference": null
+    },
+    {
+      "name": "Marek Wójcik",
+      "role": "Governor",
+      "role_detail": "Slaskie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1980",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Józef Bryk",
+      "role": "Governor",
+      "role_detail": "Swietokrzyskie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1960",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Radoslaw Król",
+      "role": "Governor",
+      "role_detail": "Warminsko-Mazurskie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1975",
+      "notes": "PSL",
+      "source_reference": null
+    },
+    {
+      "name": "Agata Sobczyk",
+      "role": "Governor",
+      "role_detail": "Wielkopolskie",
+      "start_date": "2023-12-28",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1988",
+      "notes": "f; PL2050",
+      "source_reference": null
+    },
+    {
+      "name": "Adam Rudawski",
+      "role": "Governor",
+      "role_detail": "Zachodniopomorskie",
+      "start_date": "2023-12-20",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1966",
+      "notes": null,
+      "source_reference": null
+    },
+    {
+      "name": "Wladyslaw Kosiniak-Kamysz",
+      "role": "Minister",
+      "role_detail": "Key ministries",
+      "start_date": "2023-12-13",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1981",
+      "notes": "PSL",
+      "source_reference": null
+    },
+    {
+      "name": "Krzysztof Gawkowski",
+      "role": "Minister",
+      "role_detail": "Key ministries",
+      "start_date": "2023-12-13",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1980",
+      "notes": "NL",
+      "source_reference": null
+    },
+    {
+      "name": "Radoslaw Sikorski",
+      "role": "Minister",
+      "role_detail": "Key ministries",
+      "start_date": "2025-07-24",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1963",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Radoslaw Sikorski",
+      "role": "Minister",
+      "role_detail": "Foreign Affairs",
+      "start_date": "2023-12-13",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": null,
+      "notes": "2nd time; s.a.; PO",
+      "source_reference": null
+    },
+    {
+      "name": "Tomasz Siemoniak",
+      "role": "Minister",
+      "role_detail": "Interior",
+      "start_date": "2024-05-13",
+      "end_date": "2025-07-24",
+      "currently_serving": false,
+      "birth_year": "1967",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Marcin Kierwinski",
+      "role": "Minister",
+      "role_detail": "Interior",
+      "start_date": "2025-07-24",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": null,
+      "notes": "2nd time; s.a.; PO",
+      "source_reference": null
+    },
+    {
+      "name": "Andrzej Domanski",
+      "role": "Minister",
+      "role_detail": "Finance",
+      "start_date": "2023-12-13",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1981",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Adam Bodnar",
+      "role": "Minister",
+      "role_detail": "Justice",
+      "start_date": "2023-12-13",
+      "end_date": "2025-07-24",
+      "currently_serving": false,
+      "birth_year": "1977",
+      "notes": "PO",
+      "source_reference": null
+    },
+    {
+      "name": "Waldemar Zurek",
+      "role": "Minister",
+      "role_detail": "Justice",
+      "start_date": "2025-07-24",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1970",
+      "notes": null,
+      "source_reference": null
+    },
+    {
+      "name": "Szymon Holownia",
+      "role": "Minister",
+      "role_detail": "Sejm",
+      "start_date": "2023-11-13",
+      "end_date": "2025-11-18",
+      "currently_serving": false,
+      "birth_year": "1976",
+      "notes": "PL2050",
+      "source_reference": null
+    },
+    {
+      "name": "Wlodzimierz Czarzasty",
+      "role": "Minister",
+      "role_detail": "Sejm",
+      "start_date": "2025-11-18",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": "1960",
+      "notes": "NL",
+      "source_reference": null
+    },
+    {
+      "name": "Malgorzata Kidawa-Blonska",
+      "role": "Minister",
+      "role_detail": "Senate",
+      "start_date": "2023-11-13",
+      "end_date": null,
+      "currently_serving": true,
+      "birth_year": null,
+      "notes": null,
+      "source_reference": null
+    }
+  ],
+  "metadata": {
+    "total_persons": 31,
+    "by_role": {
+      "head_of_state": 2,
+      "prime_minister": 1,
+      "minister": 12,
+      "governor": 16,
+      "other": 0
+    },
+    "extraction_notes": "Declarative extraction from rulers.org local files. Dual-backend: regex parser for structured entries, LLM (Groq Turbo-V2 with model tiering) for ambiguous entries. 12-month cutoff: 2025-04-16. Polish diacritics preserved via UTF-8. All records validated through PEPPerson Pydantic schema."
+  }
+}

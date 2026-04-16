@@ -1,0 +1,488 @@
+{
+  "source": "EUR-Lex EU 2019/796",
+  "extraction_date": "2026-04-14",
+  "entities": [
+    {
+      "entity_type": "person",
+      "name": "Igor Olegovich KOSTYUKOV",
+      "aliases": [
+        "Igor Oleg'ovich Kostyukov"
+      ],
+      "identifiers": {
+        "date_of_birth": "1961-02-21",
+        "place_of_birth": "Russia",
+        "nationality": "Russian",
+        "passport_number": null,
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Head of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU). Responsible for the GRU's cyberattack unit (Unit 26165/APT28/Fancy Bear), which carried out cyberattacks against the German Bundestag (2015) and the Democratic National Committee and Hillary Clinton Presidential Campaign (2016). Also responsible for the GRU Unit 74455 (Sandworm) which conducted the destructive NotPetya cyberattack (2017) and attempted interference with the 2017 French elections.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section A (Persons), entry 1"
+    },
+    {
+      "entity_type": "person",
+      "name": "Pavel Valeryevich ONOPRIENKO",
+      "aliases": [
+        "Pavel Valer'evich Onoprienko"
+      ],
+      "identifiers": {
+        "date_of_birth": "1983-10-05",
+        "place_of_birth": "Kherson, Ukraine (then Soviet Union)",
+        "nationality": "Russian",
+        "passport_number": null,
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Officer of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU), Unit 26165. Involved in cyberattacks on the German Bundestag (2015).",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section A (Persons), entry 2"
+    },
+    {
+      "entity_type": "person",
+      "name": "Dmitri Sergeyevich BADIN",
+      "aliases": [
+        "Dmitry Sergeyevich Badin",
+        "Dmitriy Sergeyevich Badin"
+      ],
+      "identifiers": {
+        "date_of_birth": "1990-11-15",
+        "place_of_birth": "Kursk, Russia",
+        "nationality": "Russian",
+        "passport_number": null,
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Officer of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU), Unit 26165 (APT28). Involved in the cyberattack on the German Bundestag in 2015. Also implicated in cyberattacks against the US Democratic National Committee (2016).",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section A (Persons), entry 3"
+    },
+    {
+      "entity_type": "person",
+      "name": "Aleksei Aleksandrovich MORENETS",
+      "aliases": [
+        "Alexei Aleksandrovich Morenets"
+      ],
+      "identifiers": {
+        "date_of_birth": "1977-07-31",
+        "place_of_birth": "Russia",
+        "nationality": "Russian",
+        "passport_number": "100135555",
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Officer of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU), Unit 26165. Attempted cyberattack on the Organisation for the Prohibition of Chemical Weapons (OPCW) in The Hague, Netherlands (2018). Arrested on site by Dutch authorities.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section A (Persons), entry 4"
+    },
+    {
+      "entity_type": "person",
+      "name": "Evgenii Mikhaylovich SEREBRIAKOV",
+      "aliases": [
+        "Evgeny Mikhailovich Serebriakov"
+      ],
+      "identifiers": {
+        "date_of_birth": "1981-07-26",
+        "place_of_birth": "Kursk, Russia",
+        "nationality": "Russian",
+        "passport_number": "100135556",
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Officer of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU), Unit 26165. Attempted cyberattack on the OPCW in The Hague (2018), travelling under a cover identity. Arrested by Dutch authorities on site.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section A (Persons), entry 5"
+    },
+    {
+      "entity_type": "person",
+      "name": "Oleg Mikhaylovich SOTNIKOV",
+      "aliases": [
+        "Oleg Mikhailovich Sotnikov"
+      ],
+      "identifiers": {
+        "date_of_birth": "1972-08-24",
+        "place_of_birth": "Ulyanovsk, Russia",
+        "nationality": "Russian",
+        "passport_number": "120018866",
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Officer of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU), Unit 26165. Participated in the attempted cyberattack on the OPCW in The Hague (2018), providing operational support. Arrested by Dutch authorities.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section A (Persons), entry 6"
+    },
+    {
+      "entity_type": "person",
+      "name": "Alexei Valeryevich MININ",
+      "aliases": [
+        "Aleksei Valerievich Minin"
+      ],
+      "identifiers": {
+        "date_of_birth": "1972-05-27",
+        "place_of_birth": "Perm Oblast, Russia",
+        "nationality": "Russian",
+        "passport_number": "120018867",
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Officer of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU). Participated in the attempted cyberattack on the OPCW in The Hague (2018). Arrested by Dutch authorities on site; expelled from the Netherlands.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section A (Persons), entry 7"
+    },
+    {
+      "entity_type": "person",
+      "name": "GAO Qiang",
+      "aliases": [
+        "Gao Qiang"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": "China",
+        "nationality": "Chinese",
+        "passport_number": null,
+        "national_id": null,
+        "address": "Tianjin, China",
+        "gender": "male"
+      },
+      "listing_reason": "Member of APT10 (also known as Stone Panda or MenuPass), a Chinese advanced persistent threat group. Responsible for a series of cyberattacks against EU Member States and third countries, including Cloud Hopper operations targeting managed IT service providers, resulting in unauthorised access to sensitive commercial and government information.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section A (Persons), entry 8"
+    },
+    {
+      "entity_type": "person",
+      "name": "ZHANG Shilong",
+      "aliases": [
+        "Zhang Shilong",
+        "Baobeilong",
+        "Zhang Jianguo",
+        "Atreexp"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": "China",
+        "nationality": "Chinese",
+        "passport_number": null,
+        "national_id": null,
+        "address": "Tianjin, China",
+        "gender": "male"
+      },
+      "listing_reason": "Member of APT10, working in association with Tianjin Huaying Haitai Science and Technology Development Co. Ltd. Responsible for cyberattacks against EU Member States and third countries under Operation Cloud Hopper, targeting managed IT service providers to gain access to clients' confidential data.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section A (Persons), entry 9"
+    },
+    {
+      "entity_type": "person",
+      "name": "LI Xiaoyu",
+      "aliases": [
+        "Oro0lxy"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": "China",
+        "nationality": "Chinese",
+        "passport_number": null,
+        "national_id": null,
+        "address": "Chengdu, Sichuan, China",
+        "gender": "male"
+      },
+      "listing_reason": "Member of a group operating in support of China's Ministry of State Security (MSS). Conducted cyberattacks against critical infrastructure including pharmaceutical companies, medical research organisations, and defence contractors in EU Member States and third countries. Targeted COVID-19 research entities during the pandemic period.",
+      "date_listed": "2021-07-22",
+      "source_reference": "Annex I, Section A (Persons), entry 10"
+    },
+    {
+      "entity_type": "person",
+      "name": "DONG Jiazhi",
+      "aliases": [],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": "China",
+        "nationality": "Chinese",
+        "passport_number": null,
+        "national_id": null,
+        "address": "Chengdu, Sichuan, China",
+        "gender": "male"
+      },
+      "listing_reason": "Associate of Li Xiaoyu, operating in support of China's Ministry of State Security. Jointly conducted cyberattacks targeting research organisations, universities, and government entities in multiple EU Member States, seeking to obtain intellectual property and sensitive information.",
+      "date_listed": "2021-07-22",
+      "source_reference": "Annex I, Section A (Persons), entry 11"
+    },
+    {
+      "entity_type": "person",
+      "name": "Artem Valeryevich OCHICHENKO",
+      "aliases": [
+        "Artyom Valeriyevich Ochichenko"
+      ],
+      "identifiers": {
+        "date_of_birth": "1989-07-25",
+        "place_of_birth": "Russia",
+        "nationality": "Russian",
+        "passport_number": null,
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Member of the Russian FSB-linked group Turla (also known as Snake or Waterbug). Responsible for cyberattacks against Polish government entities and critical infrastructure. Provided technical support for long-term espionage operations targeting EU Member States.",
+      "date_listed": "2023-07-24",
+      "source_reference": "Annex I, Section A (Persons), entry 12"
+    },
+    {
+      "entity_type": "person",
+      "name": "Nikolai Alexandrovich KORCHAGIN",
+      "aliases": [],
+      "identifiers": {
+        "date_of_birth": "1986-03-14",
+        "place_of_birth": "Russia",
+        "nationality": "Russian",
+        "passport_number": null,
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Operator within GRU Unit 29155 (also associated with Cadet Blizzard/DEV-0586). Involved in destructive cyberattacks and wiper malware deployments against Ukrainian government entities and critical infrastructure, with spillover effects into EU Member States, particularly affecting logistics and transportation sectors.",
+      "date_listed": "2024-06-24",
+      "source_reference": "Annex I, Section A (Persons), entry 13"
+    },
+    {
+      "entity_type": "person",
+      "name": "LI Feng",
+      "aliases": [
+        "Feng Li"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": "China",
+        "nationality": "Chinese",
+        "passport_number": null,
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Co-founder of Integrity Technology Group (Yongxin Zhicheng). Responsible for providing technical infrastructure and hacking tools to the Chinese state-linked group Flax Typhoon, enabling compromise of over 65,000 devices across six EU Member States between 2022 and 2023.",
+      "date_listed": "2025-03-16",
+      "source_reference": "Annex I, Section A (Persons), entry 14"
+    },
+    {
+      "entity_type": "person",
+      "name": "CHEN Xuguang",
+      "aliases": [
+        "Xuguang Chen"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": "China",
+        "nationality": "Chinese",
+        "passport_number": null,
+        "national_id": null,
+        "address": null,
+        "gender": "male"
+      },
+      "listing_reason": "Co-founder of Integrity Technology Group and associated with Anxun Information Technology (I-Soon). Involved in providing hacking services targeting critical infrastructure and government functions of EU Member States and third countries, including gaining unauthorised access to sensitive subscriber data.",
+      "date_listed": "2025-03-16",
+      "source_reference": "Annex I, Section A (Persons), entry 15"
+    },
+    {
+      "entity_type": "organisation",
+      "name": "85th Main Special Service Centre of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GTsSS)",
+      "aliases": [
+        "Sandworm",
+        "Sandworm Team",
+        "Unit 74455",
+        "Telebots",
+        "Voodoo Bear",
+        "Iron Viking",
+        "BlackEnergy Group"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": null,
+        "nationality": null,
+        "passport_number": null,
+        "national_id": null,
+        "address": "22 Kirova Street, Khimki, Moscow Oblast, Russia",
+        "gender": null
+      },
+      "listing_reason": "GRU Unit 74455, responsible for multiple significant cyberattacks against EU Member States and third countries, including: the NotPetya destructive malware attack (2017) causing damage in the EU and worldwide; cyberattacks on the Ukrainian power grid (2015, 2016); attempted interference with the 2017 French elections; cyberattack on the Olympic Destroyer during the 2018 Winter Olympics; and attacks on the Georgian government in 2019.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section B (Organisations), entry 1"
+    },
+    {
+      "entity_type": "organisation",
+      "name": "Chosun Expo Joint Venture",
+      "aliases": [
+        "Korea Expo Joint Venture",
+        "Chosun Expo"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": null,
+        "nationality": null,
+        "passport_number": null,
+        "national_id": null,
+        "address": "Pyongyang, Democratic People's Republic of Korea",
+        "gender": null
+      },
+      "listing_reason": "Front company linked to the Lazarus Group (Bureau 121) of the Democratic People's Republic of Korea (DPRK). Used to fund and support cyberattacks attributed to the DPRK, including the WannaCry ransomware attack (2017) which affected EU Member States and caused significant damage to hospitals, critical infrastructure, and businesses. Also responsible for cyberattacks against the SWIFT banking system.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section B (Organisations), entry 2"
+    },
+    {
+      "entity_type": "organisation",
+      "name": "Lazarus Group",
+      "aliases": [
+        "HIDDEN COBRA",
+        "Guardians of Peace",
+        "ZINC",
+        "NICKEL ACADEMY",
+        "Bureau 121",
+        "APT38 (partially)"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": null,
+        "nationality": null,
+        "passport_number": null,
+        "national_id": null,
+        "address": "Democratic People's Republic of Korea",
+        "gender": null
+      },
+      "listing_reason": "Cyber operations group under the Reconnaissance General Bureau (RGB) of the DPRK. Responsible for the WannaCry ransomware attack (2017) affecting over 150 countries including multiple EU Member States, disrupting hospitals, critical infrastructure, and commercial entities. Also responsible for large-scale financial theft from the SWIFT system and multiple cryptocurrency exchange attacks.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section B (Organisations), entry 3"
+    },
+    {
+      "entity_type": "organisation",
+      "name": "Bluenoroff",
+      "aliases": [
+        "APT38",
+        "Stardust Chollima",
+        "BeagleBoyz"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": null,
+        "nationality": null,
+        "passport_number": null,
+        "national_id": null,
+        "address": "Democratic People's Republic of Korea",
+        "gender": null
+      },
+      "listing_reason": "Financially motivated sub-group of the Lazarus Group operating under the DPRK's Reconnaissance General Bureau. Responsible for large-scale financial cyberattacks against banks, financial institutions, and cryptocurrency exchanges, including theft from the SWIFT messaging system affecting institutions in EU Member States and globally.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section B (Organisations), entry 4"
+    },
+    {
+      "entity_type": "organisation",
+      "name": "Andariel",
+      "aliases": [
+        "Silent Chollima",
+        "Onyx Sleet",
+        "PLUTONIUM"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": null,
+        "nationality": null,
+        "passport_number": null,
+        "national_id": null,
+        "address": "Democratic People's Republic of Korea",
+        "gender": null
+      },
+      "listing_reason": "Sub-group of the Lazarus Group operating under the DPRK. Responsible for cyberattacks on defence contractors, government entities, and financial institutions in EU Member States. Known for targeted ransomware attacks against healthcare and critical infrastructure sectors.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section B (Organisations), entry 5"
+    },
+    {
+      "entity_type": "organisation",
+      "name": "Tianjin Huaying Haitai Science and Technology Development Co. Ltd",
+      "aliases": [
+        "Huaying Haitai"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": null,
+        "nationality": null,
+        "passport_number": null,
+        "national_id": null,
+        "address": "Tianjin, China",
+        "gender": null
+      },
+      "listing_reason": "Chinese company that provided support to APT10 (Stone Panda/MenuPass), facilitating Cloud Hopper cyberattacks against managed IT service providers in multiple EU Member States. Enabled prolonged unauthorised access to the confidential business and government data of the providers' clients across multiple sectors.",
+      "date_listed": "2020-07-30",
+      "source_reference": "Annex I, Section B (Organisations), entry 6"
+    },
+    {
+      "entity_type": "organisation",
+      "name": "Integrity Technology Group",
+      "aliases": [
+        "Yongxin Zhicheng Technology Group Co., Ltd",
+        "Integrity Tech"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": null,
+        "nationality": null,
+        "passport_number": null,
+        "national_id": null,
+        "address": "Beijing, China",
+        "gender": null
+      },
+      "listing_reason": "China-based cybersecurity company that routinely provided products and services used to compromise and access devices in EU Member States, across Europe, and worldwide. Between 2022 and 2023, through their technical and material support to Flax Typhoon, more than 65,000 devices were compromised across six EU Member States, targeting critical infrastructure and government functions.",
+      "date_listed": "2025-03-16",
+      "source_reference": "Annex I, Section B (Organisations), entry 7"
+    },
+    {
+      "entity_type": "organisation",
+      "name": "Anxun Information Technology Co. Ltd",
+      "aliases": [
+        "I-Soon",
+        "Shanghai Anxun"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": null,
+        "nationality": null,
+        "passport_number": null,
+        "national_id": null,
+        "address": "Shanghai, China",
+        "gender": null
+      },
+      "listing_reason": "China-based company that provided hacking services aimed at the critical infrastructure and critical functions of EU Member States and third countries. Unlawfully gained access to subscriber databases and offered their contents for sale. Linked to Chinese state intelligence operations targeting European government and military entities.",
+      "date_listed": "2025-03-16",
+      "source_reference": "Annex I, Section B (Organisations), entry 8"
+    },
+    {
+      "entity_type": "organisation",
+      "name": "Emennet Pasargad",
+      "aliases": [
+        "Emennet",
+        "Net Peygard Samavat Company"
+      ],
+      "identifiers": {
+        "date_of_birth": null,
+        "place_of_birth": null,
+        "nationality": null,
+        "passport_number": null,
+        "national_id": null,
+        "address": "Tehran, Iran",
+        "gender": null
+      },
+      "listing_reason": "Iranian cyber operations company with links to the Islamic Revolutionary Guard Corps (IRGC). Unlawfully gained access to a French subscriber database and advertised its contents for sale on the dark web. Also conducted influence operations and disinformation campaigns targeting EU Member States and their democratic processes.",
+      "date_listed": "2025-03-16",
+      "source_reference": "Annex I, Section B (Organisations), entry 9"
+    }
+  ],
+  "metadata": {
+    "total_entities": 24,
+    "by_type": {
+      "person": 15,
+      "organisation": 9
+    }
+  }
+}

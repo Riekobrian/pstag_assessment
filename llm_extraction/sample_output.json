@@ -1,0 +1,22 @@
+{
+  "note": "This is a raw sample of what the semantic LLM extractor returns before being injected into the final JSON list.",
+  "extracted_entity": {
+    "entity_type": "person",
+    "name": "Igor Olegovich KOSTYUKOV",
+    "aliases": [
+      "Igor Oleg'ovich Kostyukov"
+    ],
+    "identifiers": {
+      "date_of_birth": "1961-02-21",
+      "place_of_birth": "Russia",
+      "nationality": "Russian",
+      "passport_number": null,
+      "national_id": null,
+      "address": null,
+      "gender": "male"
+    },
+    "listing_reason": "Head of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU). Responsible for the GRU's cyberattack unit (Unit 26165/APT28/Fancy Bear), which carried out cyberattacks against the German Bundestag (2015) and the Democratic National Committee and Hillary Clinton Presidential Campaign (2016). Also responsible for the GRU Unit 74455 (Sandworm) which conducted the destructive NotPetya cyberattack (2017) and attempted interference with the 2017 French elections.",
+    "date_listed": "2020-07-30",
+    "source_reference": "Annex I, Section A (Persons), entry 1"
+  }
+}
